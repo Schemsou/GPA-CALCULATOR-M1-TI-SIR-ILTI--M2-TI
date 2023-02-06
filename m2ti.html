@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>M2 TI</title>
+  </head>
+  <body>
+    <div class="title">Master 2 TI</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Module</th>
+          <th>Examen</th>
+          <th>TD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label for="jee">Architecture JEE:</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="jeeExam" name="jee" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="jeeTest" name="jeeTest" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="tc">Technologie de composants:</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="tcExam" name="tc" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="tcTest" name="tc" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="xml">XML:</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="xmlExam" name="xmlExam" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="xmlTest" name="xmlTest" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="jee">APBD (Base de données):</label>
+          </td>
+          <td>
+            <input
+              type="number"
+              min="0"
+              max="20"
+              id="apbdExam"
+              name="apbdExam"
+            />
+          </td>
+          <td>
+            <input
+              type="number"
+              min="0"
+              max="20"
+              id="apbdTest"
+              name="apbdTest"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="si">Securité informatique:</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="siExam" name="si" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="siTest" name="si" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dm">Data Mining:</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="dmExam" name="dm" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="dmTest" name="dm" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="pc">Plateforme collaborative:</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="pcExam" name="pc" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="pcTest" name="pc" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="anglais">Anglais:</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="engExam" name="anglais" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="calcbtn" type="button" onclick="getMarks()">Calculer</button>
+    <br />
+    <div class="result" id="rs"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

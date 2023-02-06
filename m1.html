@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>M2 TI</title>
+  </head>
+  <body>
+    <div class="title">Master 1 TI ILTI SIR</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Module</th>
+          <th>Examen</th>
+          <th>TD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <label for="jee">Programmation Fonctionnelle (PFA) :</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="pfaExam" name="pfa" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="pfaTest" name="pfa" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="bda">Bases de Données Avancées (BDA) :</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="bdaExam" name="bdaExam" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="bdaTest" name="bdaTest" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="rpc">Réseaux (RPC) :</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="rpcExam" name="rpcExam" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="rpcTest" name="rpcTest" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="ri">Recherche de l'Information (RI) :</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="riExam" name="riExam" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="riTest" name="ri" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="thp">Théorie de la Preuve (THP) :</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="thpExam" name="thp" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="thpTest" name="thp" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gpq">Gestion de Projets (GPQ) :</label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="gpqExam" name="gpq" />
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="gpqTest" name="gpq" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="anglais">Anglais: </label>
+          </td>
+          <td>
+            <input type="number" min="0" max="20" id="engExam" name="anglais" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="calcbtn" type="button" onclick="getMarks()">Calculer</button>
+    <br />
+    <div class="result" id="rs"></div>
+    <script src="scriptm1.js"></script>
+  </body>
+</html>
