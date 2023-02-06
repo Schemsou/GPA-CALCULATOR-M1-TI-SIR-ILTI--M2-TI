@@ -55,7 +55,6 @@ th {
 .calcbtn:hover {
   cursor: pointer;
   background-color: #243763;
-  /*transform: scale(1.1);*/
 }
 .result {
   font-size: 1.3em;
