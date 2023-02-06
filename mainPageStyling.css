@@ -21,9 +21,9 @@ header {
 }
 
 .links {
-  display: flex;
+  display: grid;
   justify-content: space-around;
-  margin-top: 13%;
+  margin-top: 7%;
 }
 .links a{
     text-decoration: none;
@@ -33,6 +33,8 @@ header {
     text-decoration: solid;
     border: none;
     border-radius: 8px;
+    margin-top: 50px;
+
     background-color: #243763;
     transition: 0.7s ease;
     color: white;
