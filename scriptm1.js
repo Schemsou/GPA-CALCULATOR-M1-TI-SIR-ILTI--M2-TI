@@ -42,6 +42,19 @@ const getMarks = () => {
   const gpq = averageModule(getValue(examValues[5]), getValue(testValues[5]));
   const engExam = getValue(examValues[6]);
 
+  if (
+    isNaN(pfa) ||
+    isNaN(bda) ||
+    isNaN(rpc) ||
+    isNaN(ri) ||
+    isNaN(thp) ||
+    isNaN(gpq) ||
+    isNaN(engExam)
+  ) {
+    alert("Insérez toutes les notes svp!");
+    return;
+  }
+
   const result =
     (pfa * modulesCoef.coefPFA +
       bda * modulesCoef.coefBDA +

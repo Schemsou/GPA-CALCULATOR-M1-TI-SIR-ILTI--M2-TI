@@ -46,6 +46,20 @@ const getMarks = () => {
   const pc = averageModule(getValue(examValues[6]), getValue(testValues[6]));
   const engExam = getValue(examValues[7]);
 
+  if (
+    isNaN(jee) ||
+    isNaN(tc) ||
+    isNaN(xml) ||
+    isNaN(apbd) ||
+    isNaN(si) ||
+    isNaN(dm) ||
+    isNaN(pc) ||
+    isNaN(engExam)
+  ) {
+    alert("Insérez toutes les notes svp!");
+    return;
+  }
+
   const result =
     (jee * modulesCoef.coefJEE +
       tc * modulesCoef.coefTC +

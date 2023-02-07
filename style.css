@@ -63,3 +63,17 @@ th {
   padding-top: 30px;
   display: none;
 }
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+    
+  }
+  .result {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: none;
+  }
+}

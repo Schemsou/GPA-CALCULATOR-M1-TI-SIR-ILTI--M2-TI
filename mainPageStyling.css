@@ -43,3 +43,11 @@ header {
 a:hover{
     transform: scale(1.1);
 }
+@media only screen and (max-width: 1000px) {
+  
+  header {
+  
+    border-bottom: none ;
+    font-size: 1.4em;
+  }
+}
