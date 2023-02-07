@@ -4,9 +4,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: ;
 }
 body {
+  background-color: #eeee;
 }
 
 table {
@@ -64,10 +64,6 @@ th {
   display: none;
 }
 @media only screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue;
-    
-  }
   .result {
     font-size: 1.3em;
     font-weight: 700;
