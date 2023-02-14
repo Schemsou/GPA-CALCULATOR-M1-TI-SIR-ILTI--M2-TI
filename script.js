@@ -11,7 +11,7 @@ const modulesCoef = {
   coefANG: 1,
 };
 
-const averageModule = (exam, test) => (test + exam * 2) / 3;
+const averageModule = (exam, test) => test * 0.33 + exam * 0.67;
 
 const getMarks = () => {
   const examValues = [
